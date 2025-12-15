@@ -1,0 +1,119 @@
+{
+    "patches": [
+        {
+            "label": "2025-12-15_18-13-13",
+            "content": "@@ -2378,16 +2378,18 @@\n rrayList\n+%3C%3E\n ();%0A    \n",
+            "lines": "159"
+        },
+        {
+            "label": "2025-12-15_18-15-11",
+            "content": "@@ -2337,17 +2337,17 @@\n  public \n-P\n+p\n alco()%7B%0A\n",
+            "lines": "159"
+        },
+        {
+            "label": "2025-12-15_18-15-27",
+            "content": "@@ -2374,26 +2374,24 @@\n  = ArrayList\n-%3C%3E\n ();%0A    %7D%0A  \n",
+            "lines": "159"
+        },
+        {
+            "label": "2025-12-15_18-15-44",
+            "content": "@@ -2378,16 +2378,18 @@\n rrayList\n+%3C%3E\n ();%0A    \n",
+            "lines": "159"
+        },
+        {
+            "label": "2025-12-15_18-15-54",
+            "content": "@@ -2374,26 +2374,24 @@\n  = ArrayList\n-%3C%3E\n ();%0A    %7D%0A  \n",
+            "lines": "159"
+        },
+        {
+            "label": "2025-12-15_18-16-20",
+            "content": "@@ -2382,16 +2382,17 @@\n List%3C%3E()\n+;\n %0A    %7D%0A \n",
+            "lines": "159"
+        },
+        {
+            "label": "2025-12-15_18-16-35",
+            "content": "@@ -2382,17 +2382,16 @@\n List%3C%3E()\n-;\n %0A    %7D%0A \n",
+            "lines": "159"
+        },
+        {
+            "label": "2025-12-15_18-16-40",
+            "content": "@@ -2382,16 +2382,17 @@\n List%3C%3E()\n+;\n %0A    %7D%0A \n",
+            "lines": "159"
+        },
+        {
+            "label": "2025-12-15_18-16-44",
+            "content": "@@ -2382,17 +2382,16 @@\n List%3C%3E()\n-;\n %0A    %7D%0A \n",
+            "lines": "159"
+        },
+        {
+            "label": "2025-12-15_18-16-57",
+            "content": "@@ -2346,33 +2346,33 @@\n alco()%7B%0A        \n-I\n+i\n nstrumento = Arr\n@@ -2365,16 +2365,17 @@\n trumento\n+s\n  = Array\n",
+            "lines": "159"
+        },
+        {
+            "label": "2025-12-15_18-17-26",
+            "content": "@@ -2346,33 +2346,33 @@\n alco()%7B%0A        \n-i\n+I\n nstrumentos = ne\n@@ -2357,39 +2357,34 @@\n      Instrumento\n-s\n  =\n- new\n  ArrayList%3C%3E();%0A\n",
+            "lines": "159"
+        },
+        {
+            "label": "2025-12-15_18-17-55",
+            "content": "@@ -2904,38 +2904,13 @@\n n(i.\n-InstrumentoDesafinadoException\n+tocar\n ());\n",
+            "lines": "159"
+        },
+        {
+            "label": "2025-12-15_18-18-45",
+            "content": "@@ -2931,20 +2931,16 @@\n ception(\n-nome\n ));%0A    \n",
+            "lines": "159"
+        },
+        {
+            "label": "2025-12-15_18-19-16",
+            "content": "@@ -2892,38 +2892,67 @@\n m.out.println(i.\n-tocar(\n+InstrumentoDesafinadoException(nome\n ));%0A        %7D%0A  \n",
+            "lines": "159"
+        },
+        {
+            "label": "2025-12-15_18-19-36",
+            "content": "@@ -2871,29 +2871,8 @@\n s)%7B%0A\n-            try%7B%0A    \n     \n@@ -2911,159 +2911,10 @@\n ar()\n+)\n ;\n-)%0A            %7Dcatch%0A            (InstrumentoDesafinadoException )%7B%0A                System.out.println(%22FALHA NO SHOW: %22 + getMessage())%0A            %7D\n %0A   \n",
+            "lines": "159"
+        },
+        {
+            "label": "2025-12-15_18-22-39",
+            "content": "@@ -2920,34 +2920,34 @@\n rintln(i.tocar()\n-)\n ;\n+)\n %0A            %7Dca\n",
+            "lines": "164"
+        },
+        {
+            "label": "2025-12-15_18-22-51",
+            "content": "@@ -3057,33 +3057,32 @@\n  + getMessage())\n-;\n %0A            %7D%0A \n",
+            "lines": "164"
+        },
+        {
+            "label": "2025-12-15_18-22-59",
+            "content": "@@ -2994,17 +2994,16 @@\n ception \n-e\n )%7B%0A     \n",
+            "lines": "164"
+        },
+        {
+            "label": "2025-12-15_18-23-06",
+            "content": "@@ -380,75 +380,8 @@\n     \n-super(%22O instrumento %22 + nome %22 esta desafinado! Nao pode tocar.%22);\n %0A   \n@@ -3063,16 +3063,18 @@\n tMessage\n+()\n );%0A     \n",
+            "lines": "164"
+        },
+        {
+            "label": "2025-12-15_18-27-02",
+            "content": "@@ -405,18 +405,16 @@\n %22 + nome\n- +\n  %22 esta \n",
+            "lines": "164"
+        },
+        {
+            "label": "2025-12-15_18-27-21",
+            "content": "@@ -3124,34 +3124,32 @@\n : %22 + getMessage\n-()\n );%0A            %7D\n",
+            "lines": "164"
+        },
+        {
+            "label": "2025-12-15_18-27-36",
+            "content": "@@ -3119,16 +3119,31 @@\n  SHOW: %22\n+ + getMessage()\n );%0A     \n",
+            "lines": "164"
+        },
+        {
+            "label": "2025-12-15_18-28-18",
+            "content": "import java.util.ArrayList;\nimport java.util.Scanner;\n\n// ==================================================================================\n// PASSO 2: EXCE\u00c7\u00c3O PERSONALIZADA\n// ==================================================================================\nclass InstrumentoDesafinadoException extends Exception {\n    public InstrumentoDesafinadoException(String nome) {\n        super(\"O instrumento \" + nome + \" esta desafinado! Nao pode tocar.\");\n    }\n}\n\n// ==================================================================================\n// PASSO 1: CLASSE PAI (INSTRUMENTO)\n// ==================================================================================\nclass Instrumento {\n    protected String nome;\n    protected boolean afinado;\n\n    public Instrumento(String nome) {\n       this.nome = nome;\n       this.afinado = false;\n    }\n\n    public String getNome() {\n        return this.nome;\n    }\n\n    public String afinar() {\n        this.afinado = true;\n        return \"O instrumento \" + nome + \" foi afinado com sucesso!\";\n    }\n\n    // PASSO 2: \n    public String tocar() throws InstrumentoDesafinadoException {\n        if(!afinado){\n            throw new InstrumentoDesafinadoException(nome);\n        }\n        return \"Tocando instrumento generico.\";\n    }\n}\n\n// ==================================================================================\n// PASSO 3: CLASSES FILHAS\n// ==================================================================================\n\nclass Violao extends Instrumento {\n    public Violao(String nome){\n        super(nome);\n    }\n    public String tocar() throws InstrumentoDesafinadoException {\n        if(!afinado){\n            throw new InstrumentoDesafinadoException(nome);\n        }\n        return \"Viol\u00e3o \" + nome + \"tocou: STRUMMM!\";\n    }\n}\n\nclass Piano extends Instrumento {\n    public Piano(String nome){\n        super(nome);\n    }\n    public String tocar() throws InstrumentoDesafinadoException {\n        if(!afinado){\n            throw new InstrumentoDesafinadoException(nome);\n        }\n        return \"Piano \" + nome + \"tocou: PLIN PLIN PLIN!\";\n    }\n}\n\n\n// ==================================================================================\n// PASSO 4: O PALCO (GERENCIADOR)\n// ==================================================================================\nclass Palco {\n    private ArrayList<Instrumento> instrumentos = new ArrayList<>();\n\n    public Palco(){\n        instrumentos = new ArrayList<>();\n    }\n    public void adicionar(Instrumento i) {\n        instrumentos.add(i);\n        System.out.println(i.nome + \" adicionado ao palco.\");\n    }\n\n    public Instrumento buscar(String nome) {\n        for(Instrumento i: instrumentos){\n            if(i.nome.equals(nome)){\n                return i;\n            }\n        }\n        return null;\n    }\n\n    public void showAoVivo() {\n        System.out.println(\"--- INICIANDO O SHOW ---\");\n         for(Instrumento i: instrumentos){\n            try{\n                System.out.println(i.tocar());\n            }catch\n            (InstrumentoDesafinadoException e){\n                System.out.println(\"FALHA NO SHOW: \");\n            }\n        }\n        \n        System.out.println(\"--- FIM DO SHOW ---\");\n    }\n}\n\n// ==================================================================================\n// MAIN\n// ==================================================================================\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        Palco palco = new Palco();\n\n        while (true) {\n            if (!scanner.hasNextLine()) break;\n            String linha = scanner.nextLine().trim();\n            if (linha.isEmpty()) continue;\n            \n            System.out.println(\"$\" + linha);\n            String[] tokens = linha.split(\" \");\n            String cmd = tokens[0].toLowerCase();\n\n            try {\n                if (cmd.equals(\"end\")) {\n                    break;\n                } else if (cmd.equals(\"init\")) {\n                    palco = new Palco();\n                    \n                } else if (cmd.equals(\"add\")) { // PASSO 1 e 4\n                    palco.adicionar(new Instrumento(tokens[1]));\n                    \n                } else if (cmd.equals(\"violao\")) { // PASSO 3\n                    // TODO: Descomente\n                     palco.adicionar(new Violao(tokens[1]));\n                    \n                } else if (cmd.equals(\"piano\")) { // PASSO 3\n                    // TODO: Descomente\n                     palco.adicionar(new Piano(tokens[1]));\n                    \n                } else if (cmd.equals(\"afinar\")) { // PASSO 1\n                    Instrumento i = palco.buscar(tokens[1]);\n                    if (i != null) System.out.println(i.afinar());\n                    \n                } else if (cmd.equals(\"tocar\")) { // PASSO 2\n                    Instrumento i = palco.buscar(tokens[1]);\n                    if (i != null) System.out.println(i.tocar());\n                    \n                } else if (cmd.equals(\"show\")) { // PASSO 4\n                    palco.showAoVivo();\n                }\n                \n            } catch (InstrumentoDesafinadoException e) {\n                System.out.println(\"ERRO: \" + e.getMessage());\n            } catch (Exception e) {\n                System.out.println(\"Erro: \" + e.getMessage());\n            }\n        }\n        scanner.close();\n    }\n}",
+            "lines": "164"
+        }
+    ]
+}

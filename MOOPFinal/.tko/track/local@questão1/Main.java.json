@@ -1,0 +1,109 @@
+{
+    "patches": [
+        {
+            "label": "2025-12-15_17-22-17",
+            "content": "@@ -2534,21 +2534,16 @@\n %22 - %22 + \n-this.\n artista;\n@@ -4233,33 +4233,33 @@\n          cineDev\n-.\n+ \n adicionar(midiaT\n",
+            "lines": "152"
+        },
+        {
+            "label": "2025-12-15_17-22-56",
+            "content": "@@ -1978,31 +1978,24 @@\n Midia %7B%0A    \n-public \n String artis\n",
+            "lines": "152"
+        },
+        {
+            "label": "2025-12-15_17-23-27",
+            "content": "@@ -1888,18 +1888,16 @@\n + titulo\n- +\n  %22 do di\n@@ -2532,18 +2532,16 @@\n + titulo\n- +\n  %22 - %22 +\n",
+            "lines": "152"
+        },
+        {
+            "label": "2025-12-15_17-26-00",
+            "content": "@@ -493,23 +493,110 @@\n ing \n-duracao) %7B%0A    \n+titulo, boolean tocando, String duracao) %7B%0A        this.titulo = titulo;%0A        this.tocando = false;\n %0A   \n",
+            "lines": "152"
+        },
+        {
+            "label": "2025-12-15_17-33-47",
+            "content": "@@ -493,102 +493,55 @@\n ing \n-titulo, boolean tocando) %7B%0A        this.titulo = titulo;%0A        this.tocando = false;%0A       \n+duracao) %7B%0A    %0A        this.duracao = duracao;\n     \n",
+            "lines": "151"
+        },
+        {
+            "label": "2025-12-15_17-34-39",
+            "content": "@@ -1398,16 +1398,32 @@\n tocando,\n+ String duracao,\n  String \n@@ -1453,32 +1453,41 @@\n (titulo, tocando\n+, duracao\n );%0A        this.\n@@ -2055,16 +2055,33 @@\n tocando,\n+ String duracao, \n String a\n@@ -2118,16 +2118,25 @@\n  tocando\n+, duracao\n );%0A     \n",
+            "lines": "152"
+        },
+        {
+            "label": "2025-12-15_17-35-18",
+            "content": "@@ -550,40 +550,8 @@\n lo;%0A\n-        this.tocando = tocando;%0A\n     \n",
+            "lines": "152"
+        },
+        {
+            "label": "2025-12-15_17-38-30",
+            "content": "@@ -574,24 +574,54 @@\n  = tocando;%0A\n+        this.tocando = false;%0A\n             \n",
+            "lines": "153"
+        },
+        {
+            "label": "2025-12-15_17-38-43",
+            "content": "@@ -569,21 +569,23 @@\n cando = \n-false\n+tocando\n ;%0A      \n",
+            "lines": "152"
+        },
+        {
+            "label": "2025-12-15_17-39-00",
+            "content": "@@ -569,23 +569,21 @@\n cando = \n-tocando\n+false\n ;%0A      \n",
+            "lines": "152"
+        },
+        {
+            "label": "2025-12-15_17-39-15",
+            "content": "@@ -569,21 +569,23 @@\n cando = \n-false\n+tocando\n ;%0A      \n@@ -622,16 +622,23 @@\n itulo e \n+e ap%C3%B3s \n tocando \n",
+            "lines": "152"
+        },
+        {
+            "label": "2025-12-15_17-40-13",
+            "content": "@@ -495,16 +495,33 @@\n g titulo\n+, boolean tocando\n ) %7B%0A    \n",
+            "lines": "152"
+        },
+        {
+            "label": "2025-12-15_17-41-26",
+            "content": "@@ -1357,16 +1357,33 @@\n  titulo,\n+ boolean tocando,\n  String \n@@ -1412,16 +1412,25 @@\n r(titulo\n+, tocando\n );%0A     \n",
+            "lines": "152"
+        },
+        {
+            "label": "2025-12-15_17-42-23",
+            "content": "@@ -1346,24 +1346,39 @@\n ilme(String \n+titulo, String \n diretor)%7B%0A  \n",
+            "lines": "152"
+        },
+        {
+            "label": "2025-12-15_17-42-32",
+            "content": "@@ -521,32 +521,62 @@\n itulo = titulo;%0A\n+        this.tocando = false;%0A\n                /\n@@ -1354,40 +1354,8 @@\n ing \n-titulo, boolean tocando, String \n dire\n@@ -1376,33 +1376,24 @@\n super(titulo\n-, tocando\n );%0A        t\n",
+            "lines": "152"
+        },
+        {
+            "label": "2025-12-15_17-43-35",
+            "content": "@@ -533,38 +533,8 @@\n lo;%0A\n-        this.tocando = false;%0A\n     \n",
+            "lines": "151"
+        },
+        {
+            "label": "2025-12-15_17-44-09",
+            "content": "@@ -1357,16 +1357,33 @@\n  titulo,\n+ boolean tocando,\n  String \n",
+            "lines": "152"
+        },
+        {
+            "label": "2025-12-15_17-45-22",
+            "content": "@@ -1397,23 +1397,23 @@\n titulo, \n-diretor\n+tocando\n );%0A     \n",
+            "lines": "152"
+        },
+        {
+            "label": "2025-12-15_17-45-44",
+            "content": "@@ -1395,16 +1395,25 @@\n r(titulo\n+, diretor\n );%0A     \n",
+            "lines": "152"
+        },
+        {
+            "label": "2025-12-15_17-45-58",
+            "content": "@@ -1963,16 +1963,33 @@\n  titulo,\n+ boolean tocando,\n String a\n@@ -2009,32 +2009,41 @@\n     super(titulo\n+, tocando\n );%0A        this.\n",
+            "lines": "152"
+        },
+        {
+            "label": "2025-12-15_17-47-43",
+            "content": "import java.util.Scanner;\nimport java.util.ArrayList;\n\n// ==================================================================================\n// PASSO 1: CLASSE M\u00c3E (MIDIA)\n// ==================================================================================\nclass Midia {\n    // TODO: Atributos privados (titulo, duracao, tocando)\n    protected String titulo; // Use protected ou private com getters se preferir\n    protected boolean tocando;\n    private String duracao;\n\n    public Midia(String titulo) {\n        this.titulo = titulo;\n        this.tocando = false;\n               // TODO: Inicialize titulo e tocando = false\n    }\n\n    public String tocar() {\n        if(tocando){\n            return titulo + \" ja esta reproduzindo.\";\n        } else {\n            this.tocando = true;\n            return \"Reproduzindo midia: \" + titulo;\n        }\n        // TODO: \n        // Se j\u00e1 estiver tocando, retorne \"[titulo] ja esta reproduzindo.\"\n        // Se n\u00e3o, mude tocando para true e retorne \"Reproduzindo midia: [titulo]\"\n    }\n}\n\n// ==================================================================================\n// PASSO 2: SUBCLASSES (FILME E MUSICA)\n// ==================================================================================\n\n class Filme extends Midia {\n    String diretor;\n    // TODO: Construtor (chame super)\n    public Filme(String titulo, String diretor){\n        super(titulo);\n        this.diretor = diretor;\n    }\n\n    // TODO: Sobrescreva o m\u00e9todo tocar().\n    // Mude tocando = true.\n    // Retorne \"Exibindo filme: [titulo] do diretor [diretor]\"\n//\n    public String tocar() {\n        if(tocando){\n            return titulo + \" ja esta reproduzindo.\";\n        } else {\n            this.tocando = true;\n            return \"Exibindo filme: \" + titulo + \" do diretor \" + diretor;\n        }\n    }\n}\n    \n     \n\n    class Musica extends Midia {\n    public String artista;\n    // TODO: Construtor (chame super)\n     public Musica(String titulo,String artista){\n        super(titulo);\n        this.artista = artista;\n    }\n\n    // TODO: Sobrescreva o m\u00e9todo tocar().\n    // Mude tocando = true.\n    // Retorne \"Tocando musica: [titulo] - [artista]\"\n     public String tocar() {\n        if(tocando){\n            return titulo + \" ja esta reproduzindo.\";\n        } else {\n            this.tocando = true;\n            return \"Tocando musica: \" + titulo + \" - \" + this.artista;\n        }\n    }\n }\n\n\n// ==================================================================================\n// PASSO 3: GERENCIADOR (PLATAFORMA)\n// ==================================================================================\nclass Plataforma {\n    private ArrayList<Midia> playlist = new ArrayList<>();\n\n    public void adicionar(Midia m) {\n        playlist.add(m);\n    }\n\n    public void reproduzirTudo() {\n        System.out.println(\"--- PLAYLIST ---\");\n        for(Midia m: playlist){\n            System.out.println(m.tocar());\n        }\n        // TODO: Percorra a lista e chame o m\u00e9todo tocar() de cada elemento.\n        // Imprima o resultado de cada chamada.\n    }\n}\n\n// ==================================================================================\n// MAIN\n// ==================================================================================\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        Plataforma cineDev = new Plataforma();\n        // Para testes unit\u00e1rios manuais do passo 1\n        Midia midiaTemp = null; \n\n        while (scanner.hasNextLine()) {\n            String linha = scanner.nextLine().trim();\n            if (linha.isEmpty()) continue;\n            System.out.println(\"$\" + linha);\n            String[] tokens = linha.split(\" \");\n            String cmd = tokens[0].toLowerCase();\n\n            try {\n                switch (cmd) {\n                    case \"end\": scanner.close(); return;\n                    case \"init\": cineDev = new Plataforma(); break;\n\n                    case \"midia\": // PASSO 1\n                        midiaTemp = new Midia(tokens[1]);\n                        cineDev.adicionar(midiaTemp);\n                        break;\n                    \n                    case \"tocar_midia\": // PASSO 1\n                        if (midiaTemp != null) System.out.println(midiaTemp.tocar());\n                        break;\n\n                    case \"filme\": // PASSO 2\n                        // Ex: filme Matrix Wachowski\n                        // TODO: Descomente\n                        cineDev.adicionar(new Filme(tokens[1], tokens[2]));\n                        break;\n\n                    case \"musica\": // PASSO 2\n                        // Ex: musica HeyJude Beatles\n                        // TODO: Descomente\n                        cineDev.adicionar(new Musica(tokens[1], tokens[2]));\n                        break;\n\n                    case \"playlist\": // PASSO 3\n                        cineDev.reproduzirTudo();\n                        break;\n                }\n            } catch (Exception e) { System.out.println(\"Erro: \" + e.getMessage()); }\n        }\n    }\n}",
+            "lines": "152"
+        }
+    ]
+}
